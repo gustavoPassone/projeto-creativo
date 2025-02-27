@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 120px;
+
+    & .nav{
+        display: flex;
+        gap: 51px;
+        align-items: center;
+        
+        & a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        & button{
+            font-size: 16px;
+            color: white;
+            font-weight: 500;
+            padding: 8px 30px;
+            background-color: #1F1F39;
+            border-radius: 8px;
+            border: none;
+        }
+    }
+}
+
+.main{
+
+    & .home{
+        display: flex;
+        gap: 60px;
+        padding: 12px 120px;
+
+        & .content{
+            display: flex;
+            flex-direction: column;
+            width: 653px;
+            height: 400px;
+            gap: 30px;
+
+            & h1{
+                font-size: 50px;
+                font-weight: 700;
+            }
+
+            & p{
+                font-size: 15px;
+                font-weight: 400;
+                color: #1F1F39B2;
+            }
+        }
+
+        & img{
+            width: 574px;
+            height: 300px;
+        }
+
+        & button{
+            width: 150px;
+            height: 20px;
+            padding: 18px 18px;
+            font-size: 15px;
+            color: white;
+            background-color: #1F1F39;
+            border: none;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    & .portifolio{
+        & .projects{
+            display: flex;
+            flex-direction: column;
+            max-width: 1488px;
+            gap: 50px;
+
+            & h1{
+                font-size: 22px;
+                font-weight: 500;
+                max-width: 600px;
+                line-height: 30px;
+            }
+
+            & .cards{
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 1488px;
+                max-height: 1853px;
+                gap: 70px;
+                justify-content: center;
+                
+
+                & .card{
+                    display: flex;
+                    flex-direction: column;
+                    width: 480px;
+                    height: 345px;
+                    gap: 20px;
+                    justify-content: space-between;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+
+    & .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 80px;
+        background-color: #000000;
+        color: white;
+        gap: 15px;
+        height: 300px;
+        margin-top: 50px;
+
+        & h2{
+            font-size: 15px;
+            font-weight: 400;
+        }
+        & .content{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            & p{
+                font-size: 20px;
+                width: 550px;
+                font-weight: 350;
+                
+            }
+
+            & button{
+                width: 150px;
+                height: 20px;
+                padding: 18px 18px;
+                font-size: 15px;
+                color: black;
+                background-color: white;
+                border: none;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    background-color: black;
+    border-top: 1px solid #4F4F4F;
+    color: rgba(255, 255, 255, 0.432);
+    font-weight: 300;
+
+    & .redes-sociais{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 50px;
+        height: 30px;
+    }
+}
